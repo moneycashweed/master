@@ -1,3 +1,0 @@
-<?php
-bot api
-?>
