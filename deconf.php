@@ -164,10 +164,8 @@ foreach($comments as $c)
 if($msg)
 {
     $msg = "Последние коменты:\n".$msg;
-    $data = apiRequest("sendMessage", ["chat_id"=>175910036,"text"=>$msg]);
-    //$data = apiRequest("sendMessage", ["chat_id"=>100810918,"text"=>$msg]);
     $data = apiRequest("sendMessage", ["chat_id"=>119394853,"text"=>$msg]);
-    $data = apiRequest("sendMessage", ["chat_id"=>79162251,"text"=>$msg]);
+    $data = apiRequest("sendMessage", ["chat_id"=>214473630,"text"=>$msg];
 }
 else
 {
